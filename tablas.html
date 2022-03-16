@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<style type="text/css">
+	table,th,td{
+		border-radius: 10px;
+		padding: 10px;
+	}
+	th{
+    background-color: #DAA7EC;
+    text-align: center;
+	}
+	td{
+		background-color: #AFAFF3;
+	}
+	header,nav,main,footer{
+		margin: 0 auto;
+	}
+	header{
+		height: 100px;
+		width: 1024px;
+		background-color:#B7E0F1;
+		padding-top: 20px;
+		padding-left: 50px;
+		margin-bottom: 20PX auto;
+		text-align:left;
+		/*box-sizing: border-box;*/
+	}
+	nav{
+    height: auto;
+    width: 1024px;
+    background-color:#79AC45;
+	padding: 10px auto;
+	}
+	nav ul li {
+    display: inline-table;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F0A9AA;
+}
+a {
+    color: #FBDCDD;
+}
+a:link{
+	color: #C87475;
+		}
+a:visited{
+	color: #D30229;
+		}
+a:hover{
+	color: deeppink;
+	background-color: #D7787A;
+		}
+a:active{
+	color: darksalmon;	
+		}
+	main{
+		width: auto;
+		height: 1260px;
+		background-color:#14202F;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	section{
+		color: darkblue;
+		width: 1030px;
+		padding-top: 20px;
+		padding-left: 50px;
+		padding: 30px;
+		/*margin-top: 20px;
+		margin-bottom: 20px;*/
+		margin: 0px auto;
+		/*box-sizing: border-box;*/
+	}
+	footer{
+		height: 80px;
+		width: auto;
+		background-color:#2459C3;
+		padding-top: 50px;
+		text-align:left;
+		padding-left: 20px;
+	}
+	h1,footer{
+		color:white;
+		}			
+	.tabla1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+}
+.tabla3 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+	<!-******************
+	
+	José Ricardo Rojas Robles
+	Matricula:201731315
+	Nrc:30557
+	Materia:Interfaces Gráficas de Usuario
+	
+	******************
+	->
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/acme:n4:default;actor:n4:default;forum:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+	<header>
+		<h1>Tablas en html</h1>
+	</header>
+	<nav>
+	  <ul>
+		<li><a href="index.html">Inicio</a></li>
+	    <li><a href="estilo_texto.html" >Estilos de texto</a></li>
+	  	<li><a href="listas.html">Listas</a></li>
+	    <li><a href="rayas.html" >Rayas</a></li>
+	    <li><a href="Enlaces.html" >Enlaces</a></li>
+		  <br>
+		<li><a href="formularios1.html">Formularios</a></li>
+	    <li><a href="Imagenes.html" >Imágenes</a></li>
+		<li><a href="Audios.html">Audios</a></li>
+		<li><a href="video.html">Video</a></li>
+		<li><a href="fuentes.html">Fuentes</a></li>
+      </ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Tabla 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dolor, pariatur quo non illo dolorem doloribus voluptate beatae praesentium quisquam?</p>
+		<table border="1" class="tabla1" style="border-collapse: collapse; border-radius: 0px;">
+				<thead>
+					<tr>
+						<th style="border-radius:0px">Matricula</th>
+						<th style="border-radius:0px">Nombres</th>
+						<th style="border-radius:0px">Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="border-radius:0px;">201731315</td>
+						<td style="border-radius:0px;">Ricardo Rojas</td>
+						<td style="border-radius:0px;">jose.rojas@gmail.com</td>
+					</tr>
+					<tr>
+						<td style="border-radius:0px;">201918772</td>
+						<td style="border-radius:0px;">Jorge Torres</td>
+						<td style="border-radius:0px;">jorge.torres@bing.com</td>
+					</tr>
+					<tr>
+						<td style="border-radius:0px;">201822339</td>
+						<td style="border-radius:0px;">Carolina Espinoza</td>
+						<td style="border-radius:0px;">caro.esp23@hotmail.com</td>
+					</tr>
+				</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+		<section>
+			<h2>Tabla 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque fuga, vitae veniam minima odio quisquam?</p>
+			<table border="1" class="tabla1" style="border-style: dotted;">
+				<thead>
+					<tr>
+						<th style="border-style:dotted;">Matricula</th>
+						<th style="border-style:dotted;">Nombres</th>
+						<th style="border-style:dotted;">Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="border-style:dotted;">201731315</td>
+						<td style="border-style:dotted;">Ricardo Rojas</td>
+						<td style="border-style:dotted;">Jose.rojas@gmail.com</td>
+					</tr>
+					<tr>
+						<td style="border-style:dotted;">201918772</td>
+						<td style="border-style:dotted;">Jorge Torres</td>
+						<td style="border-style:dotted;">jorge.torres@bing.com</td>
+					</tr>
+					<tr>
+						<td style="border-style:dotted;">201822339</td>
+						<td style="border-style:dotted;">Carolina Espinoza</td>
+						<td style="border-style:dotted;">caro.esp@hotmail.com</td>
+					</tr>
+				</tbody>
+			<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facilis laboriosam ut totam eveniet, error suscipit minima quae.</p>
+			<table border="1" class="tabla3" style="border-color:#FF0004;width: : 50%; height: 200px; border-spacing: 10px;">
+				<thead>
+					<tr>
+						<th style="width:200px;">Matricula</th>
+						<th colspan="1" style="height: 100px;width: 150px;">Nombres</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>201731315</td>
+						<td>Ricardo Robles Rojas</td>
+						<td>Jose.rojas@gmail.com</td>
+					</tr>
+					<tr>
+						<td>201918772</td>
+						<td>Jorge Sanchez Torres</td>
+						<td>jorge.torres@bing.com</td>
+					</tr>
+					<tr>
+						<td>201822339</td>
+						<td>Carolina Espinoza</td>
+						<td>caro.esp@hotmail.com</td>
+					</tr>
+				</tbody>
+			<tfoot></tfoot>
+			</table>
+		</section>
+	</main>
+	<footer>Elaborado por José Ricardo Rojas Robles</footer>
+</body>
+</html>
