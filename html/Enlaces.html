@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enlaces</title>
+	<style type="text/css">
+		header,nav,main,footer{
+    width: 80%;
+    margin: 0px auto;
+	color: #E9D1D1;		
+	background-color: #37D4CD;
+		}
+		header{
+    height: 150px;
+    color: crimson;
+    background-color: #37D4CD;
+		}
+		nav {
+    height: 150px;
+    padding: 20px;
+    background-color: #8C58EC;
+    text-align: center;
+		}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+		}
+		h1 {
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+		}
+		main{
+    background-color: #1C8486;
+    padding: 20px;
+    height: auto;
+		}
+		footer{
+    background-color: #27B8B6;
+    height: 150px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			height: 30px;
+			background-color: crimson;
+			padding: 10px;
+			border-radius: 10px;
+		}
+a {
+    color: #FBDCDD;
+}
+a:link{
+	color: darkseagreen;
+		}
+a:visited{
+	color: cyan;
+		}
+a:hover{
+	color: deeppink;
+	background-color: darkgreen
+		}
+a:active{
+	color: darksalmon;	
+		}
+footer h5 {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+	.caja_section_impares {
+    background-color: #9236CF;
+    color: #F2F1C7;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+}
+.caja_section_pares {
+    background-color: #60ECBE;
+    /*padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;*/
+    color: #C53566;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    .caja_general {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 180px;
+}
+    #caja_altura {
+    height: auto;
+}
+	
+    </style>
+</head>
+<body>
+
+<header>
+  <h1>ENLACES EN HTML</h1>
+  &nbsp;</header>
+<nav>
+	<br>
+  <ul>
+	  	<li><a href="index.html">Inicio</a></li>
+	    <li><a href="#c1">Enlace externo</a></li>
+		<li><a href="#c2">Enlace interno</a></li>
+		<li><a href="#c3">Enlace a correo</a></li>
+		<li><a href="#caja_altura">Enlace con imagen</a></li>
+	  <br>
+	  <br>
+	  <br>
+	    <li><a href="estilo_texto.html" >Estilos de texto</a></li>
+	  	<li><a href="listas.html">Listas</a></li>
+	    <li><a href="tablas.html" >Tablas</a></li>
+	    <li><a href="rayas.html" >Rayas</a></li>
+		<li><a href="formularios1.html">Formularios</a></li>
+	    <li><a href="Imagenes.html" >Imágenes</a></li>
+		<li><a href="Audios.html">Audios</a></li>
+		<li><a href="video.html">Video</a></li>
+		<li><a href="fuentes.html">Fuentes</a></li>
+      
+      </ul>
+	</nav>
+	<main>
+		<section id="c1" class="caja_section_impares caja_general">
+  			<h2>Enlace externo</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore necessitatibus distinctio, est architecto temporibus vel nulla unde modi laborum natus aut perferendis dicta incidunt similique! Quam alias in, aliquam debitis, modi incidunt obcaecati ipsa atque. <a href="http://www.udlap.mx" title="Universidad de las Americas" target="new">UDLA</a> Dolores in adipisci eum odio aperiam aspernatur.<a href="http://www.buap.mx">Benemerita Universidad Autonoma de Puebla</a></p></section>	
+		<section id="c2" class="caja_section_pares caja_general">
+  			<h2>Enlace relativo</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, perspiciatis voluptatem fugit. Non numquam totam voluptate sunt nihil similique necessitatibus odit debitis natus dolores modi accusamus cum, alias! Quasi, facere. Consequuntur, laborum! <a href="estilo_texto.html" title="Estilos de texto" target="new">Estilos</a> quam voluptates sapiente doloremque alias ipsa qui,  recusandae rerum voluptatibus. <a href="listas.html" title="Listas" target="_blank">Listas</a></p></section>	
+		<section id="c3" class="caja_general caja_section_impares">
+			<h2>Enlace a correo electronico</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi soluta magnam iusto, corporis ducimus cum perspiciatis rerum tempora consequuntur saepe vero ad. Facilis sint eius distinctio excepturi dolor ea culpa a, officiis!<a href="mailto:acualirarojo38@gmail.com">Jose Ricardo Rojas Robles&nbsp;</a></p></section>
+		<section class="caja_section_pares caja_general" id="caja_altura">
+  			<h2>Enlace con imagen</h2>
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur omnis, quibusdam eum nobis ipsam quod ipsa consequatur velit ducimus ab eveniet alias, animi voluptas delectus saepe, totam.</p>
+			<a href="http://www.buap.mx" target="new"><img src="../medios/imagenes/escudo_buap_positivo_2.png" alt="Logo de la Universidad"></a><a href="../pdf/LISTA DE PRECIOS.pdf" target="_blank"><img src="../medios/imagenes/information-icon-vector-info-details-260nw-1549298534.jpg" width="260" height="253" alt=""/></a></section>
+	</main>
+	<footer>
+	  <h5>Elaborado por José Ricardo Rojas Robles</h5>
+	</footer>
+	
+</body>
+	
+</html>

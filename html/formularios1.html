@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios en html</title>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/abril-fatface:n4:default;acme:n4:default;actor:n4:default;forum:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>Formularios en HTML</h1>
+  &nbsp;</header>
+<nav>
+  <ul>
+	<li><a href="index.html">Inicio</a></li>
+	<li><a href="estilo_texto.html" >Estilos de texto</a></li>
+	<li><a href="listas.html">Listas</a></li>
+	<li><a href="tablas.html" >Tablas</a></li>
+	<li><a href="rayas.html" >Rayas</a></li>
+	  <br>
+	<li><a href="Enlaces.html" >Enlaces</a></li>
+	<li><a href="Imagenes.html" >Imágenes</a></li>
+	<li><a href="Audios.html">Audios</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="fuentes.html">Fuentes</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="section1">
+    <h2>Formulario de ingreso o autentificación</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa distinctio ipsam repellat fuga! Sed eveniet, ipsa sapiente eum quasi ad necessitatibus impedit laudantium saepe!</p>
+	<form action="procesamiento.html" id="form1">
+	  <label>Usuario</label>
+		<input type="text" id="usuario" name="usuario">
+		<label>Contraseña</label>
+		<input type="pasword" id="contraseña" name="contraseña">
+	  
+	<input type="submit" name="submit2" id="submit2" value="Enviar">
+    </form>
+  </section>
+<section class="section1">
+  <h2>Formulario entrevista</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa distinctio ipsam repellat fuga! Sed eveniet, ipsa sapiente eum quasi ad necessitatibus impedit laudantium saepe!</p>	
+		<form action="procesamiento.html" id="form1">
+		<br>
+		<br>
+	  	<h3>Encuesta</h3>
+		  <br>
+		  <br>
+	<label for="number">Edad</label>
+		  <input name="number" type="number" id="number" max="50" min="18">
+		  	<br>
+			<br>  
+		  <label for="select2">Select:</label>
+          <select name="select2" id="select2">
+            <option>Mexico</option>
+            <option>Venezuela</option>
+            <option>Argentina</option>
+            <option>España</option>
+            <option>Colombia</option>
+          </select>
+			<br>
+		  	<br>
+			<label>Genero:</label>
+			<br>
+			<label>
+		<input type="radio" name="Genero" value="femenino" id="Genero_0">Femenino</label>
+			<label>
+		  	<input type="radio" name="Genero" value="masculino" id="Genero_1">Masculino</label>
+			<br>
+		  	<br>
+		  <label>¿Que tipo de musica escuchas?</label>
+		  <table width="200">
+		  	<tr>
+			  <td><label>
+				  <input type="checkbox" name="music" value="rock" id="musica_0">
+			    Rock</label></td>
+		    </tr>
+		    <tr>
+			  <td><label>
+				  <input type="checkbox" name="music" value="pop" id="musica_1">
+				  Pop</label></td>
+		    </tr>
+		    <tr>
+			   <td><label>
+			     <input type="checkbox" name="musica_1" value="jazz" id="musica_2">
+				Jazz</label></td>
+		    </tr>
+		    <tr>
+			   <td><label>
+			     <input type="checkbox" name="musica_2" value="salsa" id="musica_3">
+				Salsa</label></td>
+		    </tr>
+		    <tr>
+		      <td><label>
+		        <input type="checkbox" name="musica_2" value="reguee" id="musica_4">
+		        Reguee</label></td>
+		    </tr>
+		  </table>
+		 <br>
+        <input type="submit" name="submit2" id="submit2" value="Enviar">
+		  <table width="200">
+			  <br>
+			  <br>	
+	    </table>
+	  </form>
+    &nbsp;</section>
+  
+  <section class="section1">
+    <h2>Formulario de comentarios</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa distinctio ipsam repellat fuga! Sed eveniet, ipsa sapiente eum quasi ad necessitatibus impedit laudantium saepe!</p>
+	  <br>
+	  <br>
+	  <form action="procesamiento.html" id="form1">
+		<br>
+		<br>
+    <label for="email2">Email:</label>
+    <input type="email" name="email2" id="email2">
+	  <br>
+	<br>
+    <label for="textarea2">Comentario:</label>
+    <textarea name="textarea2" cols="20" id="textarea2"></textarea>
+	  <br>
+	<br>
+    <input type="submit" name="submit3" id="submit3" value="Enviar">
+		<br>
+		 <br>
+	</form>  
+&nbsp;</section>
+  <section class="section1">
+    <h2>Formulario de comentarios</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa distinctio ipsam repellat fuga! Sed eveniet, ipsa sapiente eum quasi ad necessitatibus impedit laudantium saepe!</p>
+    <form action="procesamiento.html" id="form1">
+	  <br>
+   <label for="fname">Nombre/s:</label>
+   <br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Apellidos:</label>
+  <br>
+  <input type="text" id="lname" name="lname">
+		<br>
+  <label for="date">Fecha de nacimiento:</label>
+  <input type="date" name="date" id="date">
+<br>
+		 <br>
+  <label for="select">Edad:</label>
+  <select name="select" id="select">
+    <option>18</option>
+    <option>19</option>
+    <option>20</option>
+    <option>21</option>
+    <option>22</option>
+    <option>23</option>
+    <option>24</option>
+    <option>25</option>
+    <option>26</option>
+    <option>27</option>
+    <option>28</option>
+	<option>29</option>
+    <option>30</option>
+	<option>31</option>
+    <option>32</option>
+    <option>33</option>
+    <option>34</option>
+    <option>35</option>
+  </select>
+		<br>
+	  <br>
+	  <br>
+    <label>Elige tu color favorito:</label>
+  <input type="color" name="color" id="color">
+		<br>
+	 	<br>
+	 
+	 <p>¿Qué lenguaje Web es tu favorito</p>
+	 <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br><br>
+	  <br>
+	  <label>¿Selecciona cuál pez payaso es tu favorito?</label>
+	  <br>
+	  <br>
+	  <input type="image" name="imageField" id="imageField" src="../medios/imagenes/payaso4.jpg" width="250px" height="250px">
+	  <input type="image" name="imageField" id="imageField" src="../medios/imagenes/payaso3.jpg" width="260px" height="250px">
+<input type="image" name="imageField" id="imageField" src="../medios/imagenes/payaso5.jpg" width="250px" height="250px">
+	 <br>
+		<br>
+	  <label>Profesión:</label>
+			<br>
+			<label>
+	    <input type="radio" name="Genero" value="estudiante" id="Genero_0">Estudiante</label>
+			<label>
+		    <input type="radio" name="Genero" value="masculino" id="Genero_1">Trabajo en empresa</label>
+	  <br>
+	 <label>Otro:</label>
+	 <input type="text">
+	 <br>
+	 <br>
+	 <label>¿Qué animales te gustan más?</label>
+	 <table width="200">
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup1" value="Lobo" id="CheckboxGroup1_0">
+	       Lobo</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup1" value="caballo" id="CheckboxGroup1_1">
+	       Caballo</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup1" value="aguila" id="CheckboxGroup1_2">
+	       Águila</label></td>
+		   
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="tigre" id="CheckboxGroup2_0">
+	       Tigre</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="León" id="CheckboxGroup2_1">
+	       León</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="tortuga" id="CheckboxGroup2_2">
+	       Tortuga</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="aguila" id="CheckboxGroup2_3">
+	       Águila</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="pingüino" id="CheckboxGroup2_4">
+	       Pingüino</label></td>
+       </tr>
+	   <tr>
+	     <td><label>
+	       <input type="checkbox" name="CheckboxGroup2" value="tiburon" id="CheckboxGroup2_5">
+	       Tiburón</label></td>
+			 <br>
+		   <br>
+       </tr>
+    </table>
+		<br>
+		
+		<label>Contacto:</label>
+		<br>
+		<label>Correo electrónico:</label><input type="email">
+		<br>
+		<label>Teléfono</label><input type="tel">
+		<label>Celular: </label><input type="tel">
+		<br>
+		<br>
+	  <input type="submit" name="submit" id="submit" value="Enviar">
+<br>
+		<br>
+    </form>
+&nbsp;</section>
+  &nbsp;</main>
+<footer>
+  <h6>Elaborado por José Ricardo Rojas Robles</h6>
+&nbsp;</footer>
+
+</body>
+</html>
